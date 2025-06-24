@@ -46,15 +46,6 @@ jobs:
         path: |
           ${{ env.aab-path }}
           ${{ env.apk-path }}
-    - name: Upload a Build Artifact2
-      uses: actions/upload-artifact@v4.0
-      with:
-        path: |
-           ${{ env.key-path }}
-          
-    - name: Upload a Build Artifact3
-      uses: actions/upload-artifact@v4.0
-      with:
-        path: |
-            ${{ env.txt-path }}
+          ${{ env.key-path }}
+          ${{ env.txt-path }}
     
